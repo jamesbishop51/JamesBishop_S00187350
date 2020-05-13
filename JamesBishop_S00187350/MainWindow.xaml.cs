@@ -37,6 +37,22 @@ namespace JamesBishop_S00187350
             AllPhones = query.ToList();
             LbxPhones.ItemsSource = AllPhones;
         }
+        //displays the information based on the selected phone
+        private void LbxPhones_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            //gets the selected phone
+            Phone selectedPhone = LbxPhones.SelectedItem as Phone;
+
+            //check to make sure the selection is not null
+            if(selectedPhone != null)
+            {
+                string Price = $"Phone Price: {selectedPhone.Price}";
+                TxtPrice.Text = Price;
+
+            }
+
+
+        }
     }
 
 }
