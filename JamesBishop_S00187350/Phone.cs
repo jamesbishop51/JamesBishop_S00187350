@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.Entity;
 
 namespace JamesBishop_S00187350
 {
@@ -13,6 +14,7 @@ namespace JamesBishop_S00187350
         public string OperatingSystem { get; set; }
         public string OS_Image { get; set; }
         public string Phone_Image { get; set; }
+        public int PhoneId { get; set; }
 
 
 
@@ -29,8 +31,16 @@ namespace JamesBishop_S00187350
 
 
 
-        }
+       }
 
+    }
+
+    public class PhoneData : DbContext
+    {
+
+        public PhoneData() : base("MyPhoneDate") { }
+
+        public DbSet<Phone> Phones { get; set; }
     }
 
 }

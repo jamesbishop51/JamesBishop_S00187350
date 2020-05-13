@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesBishop_S00187350", "Ja
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{886B36E2-7676-4E67-BAD3-6636D472620B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataManagement", "DataManagement\DataManagement.csproj", "{15E002BD-459F-4A7A-89C7-E3CD924DDC8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{886B36E2-7676-4E67-BAD3-6636D472620B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{886B36E2-7676-4E67-BAD3-6636D472620B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{886B36E2-7676-4E67-BAD3-6636D472620B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15E002BD-459F-4A7A-89C7-E3CD924DDC8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15E002BD-459F-4A7A-89C7-E3CD924DDC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15E002BD-459F-4A7A-89C7-E3CD924DDC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15E002BD-459F-4A7A-89C7-E3CD924DDC8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
