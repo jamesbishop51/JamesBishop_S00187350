@@ -17,14 +17,14 @@
                             <ColumnDefinition Width="100"/>
                         </Grid.ColumnDefinitions>
                         <TextBlock Text="{Binding Name}" />
-                        <Image Width="25" Grid.Column="1">
+                        <Image Width="15" Grid.Column="1">
                             <Image.Source>
                                 <BitmapImage UriSource="{Binding OS_Image}" />
                             </Image.Source>
                         </Image>
                     </Grid>
                 </DataTemplate>
-                
+
             </ListBox.ItemTemplate>
         </ListBox>
 
