@@ -20,9 +20,22 @@ namespace JamesBishop_S00187350
     /// </summary>
     public partial class MainWindow : Window
     {
+        PhoneData db = new PhoneData();
+        List<Phone> AllPhones = new List<Phone>();
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            //query that sets the source for the listbox
+            var query = from p in db.Phones
+                        select p;
+
+            AllPhones = query.ToList();
+            LbxPhones.ItemsSource = AllPhones;
         }
     }
 

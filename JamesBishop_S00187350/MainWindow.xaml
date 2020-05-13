@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:JamesBishop_S00187350"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
         <ListBox x:Name="LbxPhones" HorizontalAlignment="Left" Height="300" Margin="107,75,0,0" VerticalAlignment="Top" Width="214"/>
         <TextBlock HorizontalAlignment="Left" Height="46" Margin="435,75,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="214"/>
