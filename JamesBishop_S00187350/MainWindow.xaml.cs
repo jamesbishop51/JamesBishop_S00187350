@@ -46,8 +46,10 @@ namespace JamesBishop_S00187350
             //check to make sure the selection is not null
             if(selectedPhone != null)
             {
-                string Price = $"Phone Price: {selectedPhone.Price}";
+                string Price = $"Phone Price: €{selectedPhone.Price}";
                 TxtPrice.Text = Price;
+
+                ImgPhone.Source = new BitmapImage(new Uri(selectedPhone.Phone_Image, UriKind.Relative));
 
             }
 

@@ -16,11 +16,11 @@ namespace JamesBishop_S00187350
         public string Phone_Image { get; set; }
         public int PhoneId { get; set; }
 
-        public override string ToString()
-        {
-            return string.Format($"{Name}");
+        //public override string ToString()
+        //{
+        //    return string.Format($"{Name}");
 
-         }
+        //}
         public static void IncreasePrice(double Percentage)
         {
             double increase;
