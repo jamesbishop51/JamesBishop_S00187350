@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace JamesBishop_S00187350
 {
-    class Phone
+    public class Phone
     {
         public string Name { get; set; }
         public double Price { get; set; }
@@ -16,10 +16,10 @@ namespace JamesBishop_S00187350
 
 
 
-        static void IncreasePrice(double Percentage, double Price)
+       public static void IncreasePrice(double Percentage)
         {
             double increase;
-            Price = 500;
+           double Price = 500;
 
             Percentage = Percentage / 100;
 
