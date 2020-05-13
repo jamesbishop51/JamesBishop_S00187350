@@ -15,7 +15,7 @@ namespace DataManagement
 
             PhoneData db = new PhoneData();
             
-
+                
             using (db)
             {
                 Phone p1 = new Phone() { PhoneId = 1, Name = "Samsung S20", Price = 500, OperatingSystem = "Android", OS_Image = "/images/android.png", Phone_Image = "/images/s20.jpg"  };
